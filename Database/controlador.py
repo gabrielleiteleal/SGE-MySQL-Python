@@ -8,9 +8,19 @@ mydb = mysql.connector.connect(
 )
 
 cursor = mydb.cursor()
+cursor.execute("create database testePython")
+
+
+
+"""
+##Manipulando dados##
+
+
+cursor = mydb.cursor()
 
 cursor.execute("select * from gafanhotos;")
 
 meusResultados = cursor.fetchall()
 
 print(meusResultados)
+"""
