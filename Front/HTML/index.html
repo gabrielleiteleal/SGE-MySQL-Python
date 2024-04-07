@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/index_style.css">
+    <link href="../css/index_style.css" rel="stylesheet" type="text/css">
     <title>Sistema Escolar</title>
 </head>
+
 <body>
-    <h1>Sistema teste 01</h1>
+
+    <div class="main">
+
+        <form >
+            <fieldset class="form">
+                <legend>Alunos</legend>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Nome">
+                <br>
+                <label for="idade">Idade</label>
+                <input id="idade" type="text" placeholder="Idade">
+                <br>
+                <label for="endereco">Endereço</label>
+                <input id="endereco" type="text" placeholder="Endereço">
+                <br>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="E-mail">
+                <br>
+                <label for="tel">Telefone</label>
+                <input id="tel" type="tel" placeholder="Telefone">
+                <br>
+                <label for="nasc">Nascimento</label>
+                <input id="nasc" type="date">
+                <br>
+                <label>Gênero</label>
+                <br>
+                <label for="masc">Masculino</label>
+                <input id="masc" type="radio" name="genero">
+                <label for="femi">Feminino</label>
+                <input id="femi" type="radio" name="genero">
+                <label for="outro">Outro</label>
+                <input id="outro" type="radio" name="genero">
+                <br>
+                <input id="cadastrar" type="submit" value="Cadastrar">
+                
+
+                
+            </fieldset>
+        </form>
+
+    </div>
 
     <script src="../js/functions.js"></script>
 </body>
+
 </html>
