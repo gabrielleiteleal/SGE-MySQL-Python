@@ -10,9 +10,12 @@
 
 <body>
 
+    <h1>{{ titulo }}</h1>
+    <h1>{{ usuarios }}</h1>
+
     <div class="main">
 
-        <form >
+        <form action="#">
             <fieldset class="form">
                 <legend>Alunos</legend>
                 <label for="nome">Nome</label>
@@ -29,9 +32,9 @@
                 <br>
                 <label for="tel">Telefone</label>
                 <input id="tel" type="tel" placeholder="Telefone">
-                <br>
+                <!--<br>
                 <label for="nasc">Nascimento</label>
-                <input id="nasc" type="date">
+                <input id="nasc" type="date">-->
                 <br>
                 <label>Gênero</label>
                 <br>
@@ -51,7 +54,7 @@
 
     </div>
 
-    <script src="../js/functions.js"></script>
+    <script src="../js/functions.js" defer></script>
 </body>
 
 </html>
