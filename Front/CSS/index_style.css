@@ -6,83 +6,88 @@
 
 html, body{
     height: 100%;
-    width: 100%;
-    background-color: lightblue;
 }
 
-.main{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 850px;
-    height: 500px;
-    background-color: blue;
-    border-radius: 25px;
-}
-
-.div-img img{
-    margin-top: 50px;
-    margin-left: 23px;
-    float: left;
-    height: 30%;
-    width: 45%;
-    background-color: red;
-}
-
-.div-form{
-    float: right;
-    width: 50%;
+aside{
+    width: 10%;
     height: 100%;
-    background: purple;
+    float: left;
+    background-color: rgb(253, 62, 62);
 }
 
-.form{
-    margin-top: 90px;
-    text-align: center;
-    margin-left: 50%;
-    transform: translate(-50%);
-    position: relative;
-    display: inline-block;
+aside .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-top: 60px;
 }
 
-.form h2{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    color: white;
-
+aside .block-1,.block-2,.block-3,.block-4{
+    width: 75px;
+    height: 75px;
+    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    border-radius: 125px;
 }
 
-.form input::placeholder{
-    text-align: center;
-}
-
-.form input{
-    margin: 3px 0;
-    padding-left: 13px;
-    text-align: left;
-    font-size: 18px;
-    width: 350px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-.form input[type="date"]{
-    text-align: center;
-}
-
-.form button{
-    margin-top: 15px;
-    font-size: 20px;
-    border-radius: 15px;
-    width: 200px;
-    height: 50px;
-    background-color: cornflowerblue;
-    color: white;
-    border: 1;
-    border-color: black;
-}
-
-.form button:hover{
+aside .block-1:hover,.block-2:hover,.block-3:hover,.block-4:hover{
     cursor: pointer;
+}
+
+.block-1{
+    background-image: url('../../Assets/Icons/universidade.png');
+}
+
+.block-2{
+    background-image: url('../../Assets/Icons/professor.png');
+}
+
+.block-3{
+    background-image: url('../../Assets/Icons/nota.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+.block-4{
+    background-image: url('');
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    float: right;
+    background-color: rgb(248, 194, 93);
+}
+
+.header-alunos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px 15px 0 0 ;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container{
+    background-color: rgb(112, 112, 255);
+    width: 70%;
+    height: 50%;
+    border-radius: 0 0 15px 15px;
+    padding: 0 50px;
+}
+
+
+
+
+.clear{
+    clear: both;
 }
