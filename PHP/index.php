@@ -1,7 +1,7 @@
 <?php
 
     //Variáveis
-    $nome = "Gabriel";
+    $nome = "Testeando";
 
     echo $nome;
 
