@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+container{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 60px;
+    width: 900px;
+    height: 90%;
+    background-color: red;
+}
+
+.dados > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 200px;
+    width: 300px;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.bloco-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 350px;
+    background-color: orange;
+}
+
+.bloco-direita .imagem{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+.bloco-direita .sexo{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+}
+
+container label{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+container .valor{
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+}

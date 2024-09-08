@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.fixed-top{
+    position: relative  !important;
+}
+
+.sidebar{
+    height: 1000px;
+}
+.flex-column .nav-item{
+    margin: 10px 0;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: initial;
+}
+
+.bg-light{
+    background-color: #343a40 !important; 
+}
