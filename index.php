@@ -15,7 +15,6 @@
 
 
   <nav class="menu-lateral">
-
     <div class="btn-expandir">
       <i class="bi bi-list"></i>
     </div>
