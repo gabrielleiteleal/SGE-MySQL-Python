@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%
+    
+}
+
+.background{
+    background-image: url('../../Assets/back_cadastro_aluno.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    position: relative;
+    width: 40%;
+    height: 500px;
+    background-color: #0e52a7;
+    border: 1px solid #27f0ff;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #000000,
+             -5px -5px 10px ;
+}
+
+.header-cadastro-aluno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27f0ff;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+}
+
+label{
+    font-size: 18px;
+    color: white;
+}
+
+.input-sexo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.botoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botoes .btn-danger a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.fixed-top{
+    position: relative  !important;
+}
+
+.sidebar{
+    height: 1000px;
+}
+.flex-column .nav-item{
+    margin: 10px 0;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: initial;
+}
+
+.bg-light{
+    background-color: #343a40 !important; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 50px;
+    gap: 25px;
+    background-color: #606b77;
+    width: 100%;
+    height: 500px;
+}
+
+.container-disci{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #000000,
+             -5px -5px 10px ;
+}
+
+.container-disci:hover{
+    cursor: pointer;
+}
+
+.container-disci .nome{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 0.7;
+    background-color: #b8daff;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-disci .desc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 2;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid black;
+}
